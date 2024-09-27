@@ -58,7 +58,7 @@ const About = () => {
         </motion.div>
         <motion.div className={`${baseClass}__text`} variants={textVariants}>
           <p>
-            I am a dedicated and versatile full stack developer with a passion
+            I am a dedicated and versatile frontend developer with a passion
             for creating efficient and user-friendly web applications. With 6
             months of professional experience, I have worked with a variety of
             technologies, including React, Next.js, Node.js, MySQL, PostgreSQL,

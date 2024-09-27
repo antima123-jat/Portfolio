@@ -60,7 +60,7 @@ const Profile = () => {
               className={`${baseClass}__text`}
               variants={textVariants}
             >
-              I am a passionate full stack developer with a knack for crafting
+              I am a passionate frontend developer with a knack for crafting
               robust and scalable web applications. With 6 months of hands-on
               experience, I have honed my skills in front-end technologies like
               React and Next.js, as well as back-end technologies like Node.js,

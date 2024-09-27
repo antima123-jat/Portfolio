@@ -1,0 +1,48 @@
+.technologies {
+  &__container {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__heading {
+    color: white;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 30px;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+    flex-wrap: wrap;
+  }
+
+  &__icon {
+    @apply flex flex-col items-center border-2 border-[#ae98e00e] rounded-lg p-2 w-20 h-20 bg-transparent text-white text-center justify-center animate-bounce; // Tailwind classes
+    margin: 10px; // Add margin for gaps
+    animation: bounce 1s infinite alternate; // Default bounce animation
+
+    &:hover {
+      @apply border-[#6b28c9]; // Tailwind class
+    }
+
+    svg {
+      margin: 0;
+      color: cadetblue;
+    }
+  }
+}
+
+// Keyframes for custom bounce effect
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

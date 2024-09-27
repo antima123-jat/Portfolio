@@ -1,0 +1,31 @@
+.contact {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__heading {
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+  }
+
+  &__details {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  &__item {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}

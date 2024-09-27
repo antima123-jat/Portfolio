@@ -1,0 +1,79 @@
+.experience {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+
+  &__heading {
+    color: white;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 30px auto;
+    text-align: center;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+
+    @media (max-width: 768px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  }
+
+  &__year {
+    width: 30%;
+    font-size: 18px;
+    color: white;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+
+  &__details {
+    width: 70%;
+    color: white;
+
+    &__company {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    &__role {
+      font-size: 20px;
+      margin: 5px 0;
+    }
+
+    &__description {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+
+  &__technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    &__tech-box {
+      border-width: 1px;
+      border: 1px solid rgb(191, 44, 159);
+      border-radius: 5px;
+      padding: 5px;
+    }
+  }
+}

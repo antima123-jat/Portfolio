@@ -1,0 +1,29 @@
+.navbar-container {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+
+  &_container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &_container_icons {
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+    color: white;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    a:hover {
+      color: lightblue;
+    }
+  }
+}

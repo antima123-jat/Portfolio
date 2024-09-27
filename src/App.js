@@ -1,4 +1,3 @@
-import "./App.css";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Experience from "./components/Experience/Experience";
@@ -7,6 +6,7 @@ import Profile from "./components/Profile/Profile";
 import Projects from "./components/Projects/Projects";
 import Technologies from "./components/Technologies.jsx/Technologies";
 import { motion } from "framer-motion";
+import "./App.css";
 
 function App() {
 
